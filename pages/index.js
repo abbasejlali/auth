@@ -10,7 +10,7 @@ export default function Home({ data }) {
       justify-between items-center "
     >
       <h2>Home Page</h2>
-      {data.email ? (
+       {/* {data.email ? (
         <Link
           href="/dashboard"
           className="px-4 py-2 bg-[#eee] shodow 
@@ -26,8 +26,8 @@ export default function Home({ data }) {
         >
           Sign In
         </Link>
-      )}
-    </div>
+      )} */}
+    </div> 
   );
 }
 
