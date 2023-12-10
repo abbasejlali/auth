@@ -1,7 +1,7 @@
 const UserDashboard = ({ data }) => {
   return (
     <div>
-      <h2>Wellcome to dashboard - {data ? data.name : null}</h2>
+      {/* <h2>Wellcome to dashboard - {data ? data.name : null}</h2> */}
     </div>
   );
 };
